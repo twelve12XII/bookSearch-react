@@ -1,0 +1,27 @@
+img {
+    display: block;
+    width: 70%;
+    margin: 8% auto 5px;
+    height: auto;
+    color: black;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .8);
+}
+
+.info {
+    padding: 15px 10px;
+    font-size: 1vw;
+    p{
+        margin-top: 0.3vw;
+    }
+    &_categories{
+        color: grey;
+        text-decoration: underline;
+    }
+    &_title{
+        font-weight: bold;
+        font-size: 1.1vw;
+    }
+    &_authors{
+        color: grey;
+    }
+}

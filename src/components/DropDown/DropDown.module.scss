@@ -1,0 +1,39 @@
+.dropdown_container {
+    margin: 0.7vw 0.7vw 0;
+    position: relative;
+    display: flex;
+    font-size: 1.5vw;
+    width: 25vw;
+
+    p{
+        width: 35%;
+    }
+
+    &__list{
+        position: relative;
+        display: inline-block;
+        width: 70%;
+
+        button {
+            text-align: left;
+            width: 100%;
+            &::after {
+                content: '\21D3';
+                float: right;
+            }
+        }
+
+        .btn_lock {
+            background-color: #a6a6a6;
+            &::after {
+                content: none;
+            }
+            &:active{
+                background-color: #8f8f8f;
+            }
+        }
+    }
+}
+
+
+    
